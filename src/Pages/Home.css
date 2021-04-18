@@ -1,0 +1,29 @@
+.weather__list {
+    padding-top: 20px;
+}
+
+.input__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__container input,
+.input__container button {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input__container input:focus,
+.input__container button:focus {
+    outline: 0;
+}
+
+.input__container input {
+    margin-right: 10px;
+    width: 70%;
+}
+
+.input__container button {
+    width: 30%;
+}
